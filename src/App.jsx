@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import io from 'socket.io-client'
 
-const socket = io('https://server-1012-1.onrender.com/')
+const socket = io('https://server-1012-1.onrender.com')
 
 function App() {
   const [count, setCount] = useState(0)
